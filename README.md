@@ -2,6 +2,6 @@
 
 coderdidit landing page
 
-http://codedidit.com
-http://codedidit.io
+- http://codedidit.com
+- http://codedidit.io
 
