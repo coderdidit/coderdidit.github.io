@@ -1,12 +1,40 @@
-#container {
-    display: flex;           /* establish flex container */
-    flex-direction: column;  /* make main axis vertical */
-    justify-content: center; /* center items vertically, in this case */
-    align-items: center;     /* center items horizontally, in this case */
+#welcome-container {
+    display: flex;
+    /* establish flex container */
+    flex-direction: column;
+    /* make main axis vertical */
+    justify-content: center;
+    /* center items vertically, in this case */
+    align-items: center;
+    /* center items horizontally, in this case */
     margin-top: 350px;
 }
 
 .box {
     margin: 5px;
-    text-align: center;     /* will center text in <p>, which is not a flex item */
+    text-align: center;
+    /* will center text in <p>, which is not a flex item */
+}
+
+.signup-container {
+    margin-top: 300px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-subscribe {
+    background-color: gray;
+    color: white;
+}
+
+.socials-container {
+    margin-top: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.socials-container .btn {
+    margin: 10px;
 }
