@@ -7,12 +7,17 @@
     /* center items vertically, in this case */
     align-items: center;
     /* center items horizontally, in this case */
-    margin-top: 23vh;
+    margin-top: 24vh;
+}
+
+#welcome-container h1 {
+    color: #373f45;
 }
 
 #welcome-text {
     margin-top: 35px;
     text-align: left;
+    color: #697177;
 }
 
 .box {
