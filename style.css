@@ -10,6 +10,11 @@
     margin-top: 350px;
 }
 
+#welcome-text {
+    margin-top: 35px;
+    text-align: left;
+}
+
 .box {
     margin: 5px;
     text-align: center;
