@@ -7,16 +7,25 @@
     /* center items vertically, in this case */
     align-items: center;
     /* center items horizontally, in this case */
-    margin-top: 15vh;
+    margin-top: 5vh;
 }
 
-#welcome-container h1 {
+.contaner-center {
+    display: flex;
+    /* establish flex container */
+    flex-direction: column;
+    /* make main axis vertical */
+    justify-content: center;
+    /* center items vertically, in this case */
+    align-items: center;
+}
+
+.main {
     color: #373f45;
 }
 
 #welcome-text {
     text-align: center;
-    color: #697177;
 }
 
 .box {
