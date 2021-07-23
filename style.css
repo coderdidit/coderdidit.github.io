@@ -68,3 +68,18 @@
 #main-container {
     margin-top: 25px;
 }
+
+.list-group li {
+    padding: 0;
+    border: none;
+}
+
+.list-group li a:nth-child(1) {
+    border: 1px solid;
+    border-radius: 3px 0 0 3px;
+}
+
+.list-group li a:nth-child(2) {
+    border-radius: 0 3px 3px 0;
+    background-color: blanchedalmond;
+}
